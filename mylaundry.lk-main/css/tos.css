@@ -1,0 +1,11 @@
+.tos {
+
+	position: relative;
+	top : 30vh;
+	width : 80vw;
+	margin: auto;
+	margin-bottom: 5vh;
+	padding: 3vh 5vw 3vh 5vw;
+	border: 5px groove #00ADB5;
+	font-family: monospace;
+}

@@ -1,0 +1,134 @@
+/*
+IT21167300
+Sumanasekara PDM
+MLB_08.02_3
+*/
+
+body{
+	font-family: monospace;
+}
+
+.cart-main {
+	position: relative;
+	top: 25vh;
+	width:50vw; 
+	margin:50 auto;
+}
+.order-main{
+	width:70vw; 
+	margin:50 auto; 
+	position: relative;
+	top : 30vh;
+}
+.product_wrapper {
+	float:left;
+	padding: 10px;
+	text-align: center;
+	width: 20vw;
+	}
+
+.image{
+	width: 20vw;
+  	height: 20vh;
+}
+
+.product_wrapper:hover {
+	box-shadow: 0 0 0 2px #e5e5e5;
+	cursor:pointer;
+	}
+
+.product_wrapper .name {
+	font-weight:bold;
+	}
+
+.product_wrapper .buy {
+	text-transform: uppercase;
+    background: #393E46;
+    border: 1px solid #00ADB5;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+}
+
+.product_wrapper .buy:hover {
+	background: #222831;
+    border-color: #00ADB5;
+}
+
+.message_box .box{
+	margin: 10px 0px;
+    border: 1px solid #2b772e;
+    text-align: center;
+    font-weight: bold;
+    color: #2b772e;
+	}
+
+.table td {
+	border-bottom: #F0F0F0 1px solid;
+	padding: 10px;
+	}
+
+.cart_div {
+	float:right;
+	position:relative;
+	background: #EEEEEE;
+	width : 5vw;
+	height : 7vh;
+	border-radius: 25px;
+	border: 2px solid #00ADB5;
+	}
+
+.cart_div img {
+	display: block;
+	margin : 5px auto;
+  	width: 50%;
+}
+
+.cart_div a {
+	color:#000;
+	}	
+
+.cart_div span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #00ADB5;
+    padding: 2px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 53px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+	}
+
+.cart .remove {
+    background: none;
+    border: none;
+    color: #0067ab;
+    cursor: pointer;
+    padding: 0px;
+	}
+.cart .remove:hover {
+	text-decoration:underline;
+	}
+
+.btn{
+	background-color: #393E46;
+ 	color: white;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	margin-right: 20px;
+  	margin-left: 20px; 
+}
+.cart-to-order{
+	position: relative;
+	top : 20vh;
+	width: 30%;
+	margin: auto;
+}

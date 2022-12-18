@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="../css/about-us.css">
+    <link rel="stylesheet" type="text/css" href="../css/header-footer.css">
+
+<!-- This icon pack is  used to geticons that is used in the footer -->
+    <script src="https://kit.fontawesome.com/a340bc40a1.js" crossorigin="anonymous"></script> 
+
+</head>
+<body>
+
+
+<div class ="navbar">
+            
+            <div class="icon">
+                <img class="logo" src="../images/laundry service.jpg" alt="comapny logo"></img>
+            </div><!--end of icon div tag-->
+
+                <div class="menu">
+                    <ul  class="menu-ul">
+                        <li ><a class="menu-a" href="index.php">HOME</a></li>
+                        <li ><a class="menu-a"  href="about-us.html">ABOUT US </a></li>
+                        <li ><a class="menu-a"  href="how-it-works.html">HOW IT WORKS</a></li>
+                        <li ><a class="menu-a"  href="faq.html">FAQ</a></li>
+                        <li ><a class="menu-a"  href="order.php?type=showAll">ORDER NOW</a></li>
+                        <li ><a class="menu-a"  href="pickup.html">PICKUP</a></li>
+                        <li ><a class="menu-a"  href="contact-us.php">CONTACT US</a></li>
+                    </ul>
+                </div><!--end of menu div tag-->
+
+                 <div class="cart-profile">
+                        <a href="user.php"><img  class="user-icon"src="../images/user-icon.png" width = 35px></a>
+                 </div><!--end of cart-profile div tag-->
+
+        </div> <!--end of navbar div tag-->
+
+<!-- ---------------------------HEADER ENDS HERE--------------------------------------------------------------------- -->
+
+    <div class="aboutus-image">
+    
+            <img class="aboutus-photo" src="../images/about.jpg" alt="about us">
+            
+        </div><!--end of aboutus-image div tag-->
+
+
+<div class="aboutus-content">
+            <h2>About Us</h2>
+            <p>
+               Mylaundry.lk is a sophisticated laundry service that is built to provide a seamless experience. Once a customer is registered and logged in, they can view our services, add services to the cart then finally if they want, place an order. But not to worry if they have a change of mind, they can edit the cart before placing an order and they can cancel an order after they place a one. When placing an order customers can pay in a wide variety of payment methods for added ease of access. Customers will receive notification about their order in every step. They can also visit the order page to see order status. If it is not enough, they can inquire us via a contact us form or by mobile or email. Customers will be provided an invoice for every order; these invoices are system generated but our accountants will manually check them before issuing. Regular customers can save money by buying a package. It is much appreciated if customers can provide us feedback so that we can improve our service. However, our staff members will moderate the publicly available feedbacks to avoid spam and feedback misuse.
+Staff members, delivery person and accountants are given admin accounts to fulfil their responsibilities. All of them can view and update order status in real time with the admin accounts. However, order cancellation is only done by staff members as they are trained to handle order cancellations. Accountants will use the system data to generate all kind of reports so that we can evaluate system performance and other metrics.
+            </p>
+        </div> <!--end of aboutus-content div tag-->
+
+
+
+<!-- ---------------------------FOOTER BEGINS HERE--------------------------------------------------------------------- -->     
+        <div class="footer">
+            
+            <div class="content-1">
+                <center>
+        
+                <h3>Mobile App</h3>
+                <a href="https://play.google.com/store/apps"><img class="app-googleplay" src="../images/googleplay.jpg"></a> <br>
+                <a href="https://www.apple.com/app-store/"><img class="app-appstore" src="../images/appstore.jpg"></a>
+                
+                </center>
+
+            </div><!--end of content-1 div tag-->
+            <div class="content-2">
+                    
+                    <h4 class="line-1">mylaundry.lk@gmail.com </h4>
+                    <h4 class="line-2">133, St.Peters Road, Colombo</h4>
+                    <a  class="infor-line" href="privacy-policy.html">Privacy Policy</a><br>
+                    <a  class="infor-line" href="terms-of-services.html">Terms of Services</a>
+                    <h4 class="line-5"> &copy; Copyright Infromation</h4>
+
+                <div class="social-links">
+                    <a class="social-links-a" href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a class="social-links-a" href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a class="social-links-a" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="social-links-a" href="https://www.google.com/account"><i class="fa-brands fa-google-plus-square"></i></a>
+                    
+                </div> <!--end of social-links div tag-->
+            </div> <!--end of content-2 div tag-->
+
+            <div class="content-3">
+                <h3 id="quick-link-header">Frequent Links</h3>
+                <ul class="quick-link-ul">
+                    <li><a class="quick-link-a" href="services.html">Services</a></li>
+                    <li ><a class="quick-link-a" href="package.html">Packages</a></li>
+                    <li ><a class="quick-link-a" href="donate.html">Donate</a></li>
+                    <li ><a class="quick-link-a"  href="login.php">Login</a></li>
+                    <li ><a class="quick-link-a" href="register.php">Register</a></li>
+                </ul>   
+
+            </div> <!--end of content-3 div tag-->  
+        </div>  <!--end of footer div tag-->    
+    
+
+    
+</body>
+
+<script>
+        // Enable hidden nav bar
+    
+        const nav = document.querySelector(".navbar");
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener("scroll", () => {
+        if (lastScrollY < window.scrollY) {
+        nav.classList.add("nav-hidden");
+        } else {
+        nav.classList.remove("nav-hidden");
+        }
+
+        lastScrollY = 60;
+        });
+ 
+ </script>
+
+
+</html>

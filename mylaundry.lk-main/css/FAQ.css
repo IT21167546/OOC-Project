@@ -1,0 +1,62 @@
+
+.accordion {
+	width: 50vw;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 4px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+  .accordion-item h1
+  {
+	  margin-left: 9vw;
+	  margin-bottom: 8vh;
+	  margin-top: 30vh;
+
+  }
+  
+  .accordion-header {
+	display: flex;
+	padding: 14px;
+	width: 100%;
+	background: #1f8dd6;
+	border: none;
+	
+	color: #f3f3f3;
+	cursor: pointer;
+  }
+  
+  .accordion-header.active {
+	background-color: #1070b1;
+  }
+
+  
+  .accordion i
+  {
+	  margin-left: 10vw;
+  }
+  
+  .accordion-header.active i {
+	transform: rotate(180deg);
+	transition: all 0.3s ease-in-out;
+
+  }
+  
+  .accordion-content{
+	padding: 2px;
+	background-color: #f3f3f3;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+  }
+  .accordion-content p 
+  {
+	  padding: 1vw;
+  }
+
+  .accordion-content.active {
+	max-height: 13vh;
+	padding: 2px;
+  }
+ 

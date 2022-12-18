@@ -1,0 +1,37 @@
+
+.aboutus-image 
+{
+	position: relative;
+}
+
+.aboutus-image img 
+{
+	width: 80vw;
+	height: 60vh;
+	margin-top: 30vh;
+	margin-left: 10vw;
+}
+
+.aboutus-content
+{
+	position: relative ;
+	width: 50vw;
+	height: 120vh;
+	margin-left: 26vw;
+	text-align: center;
+	margin-top: 3vh;
+	margin-bottom: -15vh;
+
+}
+.aboutus-content h2
+{
+
+	font-size: 50px;
+	color: red;
+}
+.aboutus-content p 
+{
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 30px;
+}

@@ -1,0 +1,30 @@
+.howit-head-text 
+{
+font-family: monospace;
+text-align: center;
+color: black;
+}
+
+.howit-content
+{
+	position: relative;
+  	top: 20vh;
+  	padding: 20vh 10px 0px 10vw;
+  	display: flex;
+  	font-family: monospace;
+  	font-size: 16px;
+}
+
+.howit-content-1
+{
+	width: 40vw;
+	margin: 0 5vw 0 0vw;
+}
+
+.howit-content-2
+{
+	width: 40vw;
+	text-align:center;
+	margin: 0 5vw 0 0;
+
+}

@@ -1,0 +1,73 @@
+/*
+*{
+	margin: 0;   /*remake all default margin values to 0*/
+	padding: 0;  /*remake all default padding values to 0*/
+}
+
+#head-tex 
+{
+	margin-top: 10px;
+
+}
+
+.package
+{
+	position: relative;
+	display: flex;
+	max-width: 1500px;
+	max-height: 669px;
+	margin-top: 60px;
+	text-align: center;
+	font-family: monospace;
+}
+
+.package-body
+{
+	font-family: monospace;
+	width: 330px;
+	margin: 0px 20px;
+	height: 609px;
+	border: 2px solid black;
+	transition: 0.3s all ease-in-out;
+}
+
+.package-body:hover
+{
+	border-color: red;
+	transform: scale(1.02);
+
+}
+
+.package-type-name
+{
+	color: black;
+	font-family: monospace;
+	font-size: 20px;
+	margin-top: 40px;
+	transition: 0.5s ease;
+}
+
+.package-type-name:hover
+{
+	color: red;	
+}
+
+.package-logo
+{
+	margin-top: 40px;	
+	transition: 0.3s all ease-in-out;
+}
+
+.package-logo:hover
+{
+	transform: scale(1.44);
+	
+}
+
+.package-discription
+{
+	margin-top: 80px;
+	font-family: monospace;
+	font-size: 19px;
+}
+*/

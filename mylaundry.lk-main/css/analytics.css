@@ -1,0 +1,54 @@
+.footer
+{
+    margin-top: 530px ;
+}
+
+.analytics
+{
+
+    height: 1px;
+    margin-left: 200px;
+    max-width: 1010px;
+    margin-top: 200px;
+    padding-top : 30px;   
+}
+
+.analytics .img1
+{
+    width: 351px;
+    height: 176px;
+    margin-left: 23px;
+}
+
+.analytics .img2
+{
+    height: 372px;
+    margin-left: 1px;
+    margin-bottom: -195px;
+    width: 300px;  
+}
+
+.analytics .img3
+{
+    height: 281px;
+    width: 301px;
+    margin-bottom: -104px;
+   
+}
+
+.analytics .img4
+{
+    margin-left: 23px;
+}
+.analytics .active
+{
+    border: 2px solid black;
+    transition: 0.6s ease-in-out;
+}
+.analytics .active:hover
+{
+    transform: scale(0.9);
+   
+}
+
+

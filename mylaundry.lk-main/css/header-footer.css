@@ -1,0 +1,325 @@
+
+/*In case your viewport (display device) is larger line 42,62,77 should be incremented for a better navigation bar*/
+*{
+	margin: 0;   /*remake all default margin values to 0*/
+	padding: 0;  /*remake all default padding values to 0*/
+}
+
+
+body{ 
+	margin: 0 auto;
+} /*added incase the user zooms out the website beyond the viewport*/
+
+
+/* .icon Handles the comapny logo  */
+.icon 
+{
+	min-width: 15vw;  /*make a size of logo width*/
+	float: left;
+	transition: 0.3s ease-in-out;
+}
+
+.logo /*logo styles*/
+{
+	height: 124px;
+	width: 150px;
+	margin: 5px 10px 0px 15px;
+	transition: 0.3s ease-in-out;
+}
+.logo:hover
+{
+	transform: scale(1.1);
+}
+
+/*.icon ENDS HERE */
+
+
+
+/*Navbar start here (defualt) */
+.navbar
+{	 
+	background-image: linear-gradient( #005cbf , #018ce2, #07b1cb);
+	height: 23vh; /*if you view port is high, increment this */
+	width: 100vw;
+	position: fixed;
+	z-index: 28; /*Z-index provides us a way to bring elements to the front or to the back to make stacked elements display corretly.*/
+	top: 0;
+	background-repeat: no-repeat;
+	transition: 0.5s ease-in-out;
+}
+
+/*Navbar when the user scrolls down the page*/
+.nav-hidden {
+	transform: translateY(-15vh);
+	transition: 0.5s all ease-in-out;
+	background-color: rgb(98, 194, 233);
+}	
+
+.nav-hidden .menu
+{
+	/*margin-top: 90px;*/
+	margin-top: 15vh; /*if you view port is high, increment this */
+	transform: translatex(-200px);
+	transition: 0.5s all ease-in-out;
+}
+
+.nav-hidden .logo	
+{
+	transform: translateY(-40px);
+	transition: 1s all ease-in-out;
+}
+
+	
+.nav-hidden .cart-profile .user-icon 
+{
+	/*margin-top: 96px;*/
+	margin-top: 15vh; /*if you view port is high, increment this */
+	font-size: 23px;
+	/*margin-left: 4vw;*/
+	transition: 0.5s all ease-in-out;
+}
+
+/*Navbar ends here */
+
+/*Menu items start here*/
+.menu 
+{
+	min-width: 70vw;  /*make the size of menu bar width*/
+	float: left;   /*menu bar put on next to logo*/
+	height: 40px; /*make a size of menu bar height*/
+	margin-top: 59px;
+	margin-left: 10px;
+	transition: 0.5s ease-in-out;
+	
+}
+
+.menu-ul
+{
+	margin-top: 3.4px;
+	float: left;     /*ul itim are put on next to logo*/
+	display: flex;  /*showing menu bar inline(default mode is line by line)*/
+	justify-content: center;
+	align-items: center;
+}
+
+.menu .menu-ul li 
+{
+	list-style: none;   /*remove all style give by system defalut like as dot*/
+	font-size: 17px;    /*front size of menu bar items */	
+	border: solid rgba(21, 19, 19, 0.206);
+	border-width: 0 0 0  3px;
+	padding: 7px;
+}
+
+.menu-ul li .menu-a 
+{
+	text-decoration: none;
+	color: rgb(250, 249, 249);
+	font-family: sans-serif;
+	font-weight: 500;
+	transition: all .4s ease;
+	
+	
+}
+
+.menu-ul li .menu-a:hover
+{
+	background-image: linear-gradient( #f4f6f800 , #f1f8fc00, #f3f5f600);
+	color: rgb(246, 246, 251);
+	font-size: 18px;
+	margin-right: 10px;
+	border-color: #005cbf;
+}
+
+/*Menu item ends here*/
+
+/*User icon start here */
+.cart-profile
+{
+	width : 5vw;
+	float : right;
+}
+
+
+.cart-profile .user-icon 
+{
+	margin-top: 50px;
+	font-size: 30px;
+	float: rigth;
+	color: black;
+	/*margin-left: 350px;*/
+	transition: 0.5s ease-in-out;
+	
+}
+
+.cart-profile .user-icon:hover 
+{
+	transform: scale(1.2);
+}
+/*user icon ends here*/
+
+
+
+
+
+
+
+/*Footer starts here*/
+.footer
+{
+	position: relative;
+	bottom: 0;
+	display: flex;
+	width: 100%;
+	top: 30vh;
+	background-image: linear-gradient(#0404e7fe, #0808f080);
+	/*height: 228px;*/
+	font-family: sans-serif,serif;
+	
+}
+
+/*First div include the mobile app links*/
+.content-1 
+{
+	width: 25%;
+	height: 200px;
+}
+
+.app-googleplay 
+{
+	width: 130px;
+	height: 58px;		
+}
+
+.app-appstore
+{
+	width: 115px;
+	height: 40px;		
+}
+
+.content-1 h3 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(254, 254, 252);
+	text-align: center;
+	margin-top: 45px;
+
+}
+
+
+/*Second div includes the site details*/
+.content-2 
+{
+	width: 50%;
+	height: 200px;
+	line-height: 190%;
+	margin-top: 25px;
+	text-align: center;
+}
+
+
+.content-2 h4
+{
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: 2;
+	color: rgb(204, 223, 225);
+  	
+}
+
+/*Third div includes the frquentlinks*/
+
+.content-3 
+{
+	width: 25%;
+	height: 200px;
+	
+}
+
+
+.infor-line:hover
+{
+	color: rgb(63, 224, 245);
+}
+
+.infor-line
+{
+	font-family: sans-serif;
+	font-size : 16px;
+	color: rgb(204, 223, 225);
+	margin: auto;
+	text-decoration: none;
+}
+
+.social-links
+{
+	display: flex;
+	width : 20vw;
+	margin: auto;
+	margin-top: 10px;
+
+}
+
+.social-links-a
+{
+	width: 5vw;
+	text-align: center;
+	text-decoration: none;
+	color: rgba(220, 210, 210, 0.965);
+	transition: 0.3s ease-in ;
+	
+}
+
+.social-links-a .fa-brands
+{
+	font-size: 25px;
+}
+
+ .social-links-a:hover
+{
+	transform: scale(1.2);
+	background: -webkit-linear-gradient(rgb(135, 226, 203), rgb(79, 209, 238));
+	-webkit-background-clip : text;
+  	-webkit-text-fill-color : transparent;
+}
+
+ #quick-link-header	
+{
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: rgb(220, 219, 228);		
+}
+
+.quick-link-a 
+{
+	width: 25vw;
+	margin : auto;
+	font-size: 17px;
+	color: rgb(225, 215, 215);
+	text-decoration: none;
+
+}
+ .content-3 h3 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.quick-link-a:hover 
+{
+	color: rgb(81, 232, 255);
+	font-size: 19px;
+	transition: 0.3s all ease-in-out;
+}
+
+.quick-link-ul 
+{
+	text-align: center;
+	list-style-type: none;
+}
